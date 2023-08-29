@@ -1,0 +1,18 @@
+
+[class^="col"] {
+  background-color: rgba(0, 0, 0, .2);
+  border: 1px solid black;
+}
+
+header {
+  height: 80px;
+  background-color: salmon;
+}
+
+.start-b {
+  background-color: aquamarine;
+}
+
+.portfolio {
+  background-color: cadetblue;
+}
