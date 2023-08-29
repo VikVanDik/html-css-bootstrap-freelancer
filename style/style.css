@@ -4,6 +4,12 @@
   border: 1px solid black;
 }
 
+
+[class^="container"] {
+  background-color: rgba(0, 0, 0, .2);
+  border: 1px solid black;
+}
+
 header {
   height: 80px;
   background-color: salmon;
@@ -15,4 +21,13 @@ header {
 
 .portfolio {
   background-color: cadetblue;
+}
+
+.about {
+  background-color: aquamarine;
+}
+
+.container-v {
+  width: 80%;
+  margin: 0 auto;
 }
