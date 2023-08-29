@@ -10,28 +10,55 @@
   border: 1px solid black;
 }
 
+/* PALETTE COLORI */
+
+.dark-blue {
+  background-color: #2C3E50;
+}
+
+.water-green {
+  background-color: #1ABC9C;
+}
+
+.violet {
+  background-color: #BA4B63;
+}
+
+.light-blue {
+  background-color: #1EA4B6;
+}
+
+.black {
+  background-color: #140F0F;
+}
+
+.light-blue-2 {
+  background-color: #1C83C1;
+}
+
+.blue {
+  background-color: #0E38B5;
+}
+
+.sand {
+  background-color: #CCB2A3;
+}
+
+.dark-blue-2 {
+  background-color: #3A546D;
+}
+
 header {
   height: 80px;
-  background-color: salmon;
-}
-
-.start-b {
-  background-color: aquamarine;
-}
-
-.portfolio {
-  background-color: cadetblue;
-}
-
-.about {
-  background-color: aquamarine;
 }
 
 .container-v {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .pb-100 {
   padding-bottom: 100px;
 }
+
