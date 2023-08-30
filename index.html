@@ -114,21 +114,27 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact pb-50">
       <div class="container-v">
         <div class="container-fluid">
-          <div class="d-flex flex-column align-items-center ">
-            <span>contact me</span>
-            <div>IMG</div>
+          <div class="container d-flex flex-column align-items-center w-100 mb-3">
+            <div class="text-uppercase fs-1 fw-bold mt-5 mb-3"
+            >contact me
+            </div>
+            <div class="w-100 d-flex justify-content-center align-items-center">
+              <span class="bar_v_black d-inline-block"></span>
+              <span><i class="fa-solid fa-star px-3"></i></span>
+              <span class="bar_v_black d-inline-block"></span>
+            </div>
           </div>
-          <div class="row row-cols-1 ">
-            <div class="col text-capitalize">name</div>
-            <div class="col text-capitalize">email address</div>
-            <div class="col text-capitalize">phone number</div>
-            <div class="col text-capitalize pb-100">message</div>
-          </div>
-          <div class="btn">send</div>
         </div>
+        <form action="#">
+          <input type="text" class="form-control input_v py-3" placeholder="Name">
+          <input type="email" class="form-control input_v py-3" placeholder="Email Address">
+          <input type="text" class="form-control input_v py-3" placeholder="Phone Number">
+          <textarea name="" id="" cols="25" rows="10" placeholder="Message" class="form-control input_v"></textarea>
+          <button class="btn btn-danger btn_v mt-3">Send</button>
+        </form>
       </div>
     </section>
 

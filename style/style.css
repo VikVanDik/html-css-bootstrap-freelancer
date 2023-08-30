@@ -132,3 +132,15 @@ a {
   color: white;
   border: 1px solid white;
 }
+
+.input_v {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.input_v::placeholder {
+  color: black;
+}
