@@ -69,5 +69,16 @@
 }
 
 .avatar {
-  width: 100px;
+  width: 200px;
+}
+
+.bar_v {
+  background-color: white;
+  width: 10%;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.fs-18 {
+  font-size: 18px;
 }
