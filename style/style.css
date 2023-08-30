@@ -59,13 +59,17 @@
 
 
 .container-v {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .avatar {
@@ -115,3 +119,16 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
+.w_120 {
+  width: 120px;
+}
+
+.btn_v {
+  background-color: #1ABC9C;
+  color: white;
+  border: 1px solid white;
+}
