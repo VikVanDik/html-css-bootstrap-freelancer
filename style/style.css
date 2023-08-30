@@ -21,6 +21,14 @@
   color: white;
 }
 
+.gray-c {
+  color: gray;
+}
+
+.water-green-c {
+  color: #1ABC9C;
+}
+
 .dark-blue {
   background-color: #2C3E50;
 }
@@ -64,6 +72,10 @@
   max-width: 1200px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -76,6 +88,10 @@
   width: 200px;
 }
 
+.white_brd {
+  border: 1px solid white;
+}
+
 .bar_v {
   background-color: white;
   width: 10%;
@@ -84,7 +100,7 @@
 }
 
 .bar_v_black {
-   background-color: black;
+  background-color: black;
   width: 10%;
   height: 3px;
   border-radius: 5px;
@@ -133,6 +149,16 @@ a {
   border: 1px solid white;
 }
 
+.btn_v:hover {
+  background-color: white;
+  color: #1ABC9C;
+  border: 1px solid #1ABC9C;
+}
+
+.btn_v:active {
+  background-color: gray;
+}
+
 .input_v {
   border-top: none;
   border-left: none;
@@ -144,3 +170,12 @@ a {
 .input_v::placeholder {
   color: black;
 }
+
+.circle_v {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding-top: 12px;
+}
+

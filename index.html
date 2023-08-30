@@ -10,17 +10,17 @@
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
-  <header class="dark-blue">
+  <header class="dark-blue position-fixed w-100 z-3 ">
     <nav class="navbar navbar-expand-lg dark-blue debug">
       <div class="container">
         <a class="navbar-brand text-uppercase white-c fs-4  fw-bold" href="#">start bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon white-c"></span>
+        <button class="navbar-toggler  white_brd" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="gray-c"><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-uppercase white-c fw-bold" aria-current="page" href="#">portfolio</a>
+              <a class="nav-link text-uppercase white-c fw-bold" aria-current="page" href="#" >portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-uppercase white-c fw-bold" href="#">about</a>
@@ -34,10 +34,10 @@
     </nav>
   </header>
   <main>
-    <section class="start-b water-green d-flex justify-content-center py-5">
+    <section class="start-b water-green d-flex justify-content-center pb-5 pt-100">
       <div class="container">
         <div class="d-flex flex-column align-items-center w-100">
-          <img src="./img/avatar.svg" alt="" class="avatar">
+          <img src="./img/avatar.svg" alt="avatar" class="avatar">
           <div class="text-uppercase fs-1 fw-bold text-white">start bootstrap</div>
           <div class="w-100 d-flex justify-content-center align-items-center">
             <span class="bar_v d-inline-block"></span>
@@ -108,7 +108,7 @@
             <div class="col text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, impedit reprehenderit quia, recusandae doloremque sapiente numquam rem, ipsum quod nostrum cum ullam fugiat quam sed. Quis voluptas animi consectetur quaerat?</div>
           </div>
           <div class="row justify-content-center m-5 pb-50">
-            <a class="btn btn-danger btn_v w_120"><i class="fa-solid fa-download"></i> download</a>
+            <a class="btn btn_v w_120"><i class="fa-solid fa-download"></i> download</a>
           </div>
         </div>
       </div>
@@ -133,24 +133,38 @@
           <input type="email" class="form-control input_v py-3" placeholder="Email Address">
           <input type="text" class="form-control input_v py-3" placeholder="Phone Number">
           <textarea name="" id="" cols="25" rows="10" placeholder="Message" class="form-control input_v"></textarea>
-          <button class="btn btn-danger btn_v mt-3">Send</button>
+          <button class="btn btn_v mt-3">Send</button>
         </form>
       </div>
     </section>
 
     <section class="pre-footer dark-blue-2">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
-          <div class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, eaque.</div>
-          <div class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, amet!</div>
-          <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quasi?</div>
+        <div class="row row-cols-1 row-cols-md-3 text-center py-5">
+          <div class="col text-white">
+            <h3 class="text-uppercase">location</h3>
+            <p class="fs-4">2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="col text-white">
+            <h3 class="text-uppercase">around the web</h3>
+            <div class="d-flex justify-content-evenly">
+              <a class="circle_v text-white"><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="circle_v text-white"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a class="circle_v text-white"><i class="fa-brands fa-twitter"></i></a>
+              <a class="circle_v text-white"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col text-white">
+            <h3 class="text-uppercase">about freelancer</h3>
+            <p class="fs-5">Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="water-green-c fs-5">Start Bootstrap</a>.</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
           
   <footer class="text-center py-5 dark-blue">
-    <div>Lorem ipsum dolor sit amet.</div>
+    <div class="text-white">Copyright © Your Website 2019</div>
   </footer>
 </body>
 </html>
