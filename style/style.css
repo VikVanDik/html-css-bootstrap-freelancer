@@ -79,6 +79,39 @@
   border-radius: 5px;
 }
 
+.bar_v_black {
+   background-color: black;
+  width: 10%;
+  height: 3px;
+  border-radius: 5px;
+}
+
 .fs-18 {
   font-size: 18px;
 }
+
+.br_10 {
+  border-radius: 10px;
+}
+
+.fa-plus {
+  top: calc(50% - 50px);
+  right: calc(50% - 50px);
+  font-size: 100px;
+  color: white;
+}
+
+.portfolio .container .over .fa-solid {
+  display: none;
+}
+
+.portfolio .container .over:hover .fa-solid {
+  display: inline-block;
+ 
+}
+
+.portfolio .container .over:hover {
+  filter: sepia(90%);
+  cursor: pointer;
+}
+
